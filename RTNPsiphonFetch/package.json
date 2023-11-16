@@ -1,0 +1,38 @@
+{
+    "name": "rtn-psiphon-fetch",
+    "version": "0.0.1",
+    "description": "Native http fetcher with optional Psiphon tunneling",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+      "js",
+      "android",
+      "ios",
+      "rtn-psiphon-fetch.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+    ],
+    "keywords": ["react-native", "ios", "android"],
+    "repository": "<TBD>",
+    "author": "<TBD>",
+    "license": "<TBD>",
+    "bugs": {
+      "url": "https://<TBD>"
+    },
+    "homepage": "<TBD>",    "devDependencies": {},
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+    "codegenConfig": {
+      "name": "RTNPsiphonFetchSpec",
+      "type": "modules",
+      "jsSrcsDir": "js",
+      "android": {
+        "javaPackageName": "com.rtnpsiphonfetch"
+      }
+    }
+  }

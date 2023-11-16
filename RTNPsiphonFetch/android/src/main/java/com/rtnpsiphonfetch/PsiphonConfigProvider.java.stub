@@ -1,0 +1,16 @@
+package com.rtnpsiphonfetch;
+
+class PsiphonConfigProvider {
+    public static String config = "{\n" +
+            "  \"PropagationChannelId\" : \"\",\n" +
+            "  \"SponsorId\" : \"\",\n" +
+            "  \"RemoteServerListUrl\" : \"https://example.com/server_list\",\n" +
+            "  \"RemoteServerListSignaturePublicKey\" : \"\",\n" +
+            "  \"TunnelPoolSize\" : 1,\n" +
+            "  \"EstablishTunnelTimeoutSeconds\" : 0,\n" +
+            "  \"TunnelWholeDevice\" : 0,\n" +
+            "  \"EmitBytesTransferred\" : true,\n" +
+            "  \"EmitDiagnosticNotices\": true,\n" +
+            "  \"RemoteServerListDownloadFilename\" : \"server_list_compressed\"\n" +
+            "}\n";
+}
